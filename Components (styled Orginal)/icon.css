@@ -1,0 +1,23 @@
+.icon-container {
+  display: flex;
+  position: relative;
+}
+.icon-link {
+  display: contents;
+}
+.icon-icon {
+  fill: var(--dl-color-gray-900);
+  width: 24px;
+  height: 24px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .icon-icon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
